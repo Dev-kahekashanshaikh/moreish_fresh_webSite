@@ -47,12 +47,12 @@ export const PackagingSection = () => {
                 height="595"
                 onError={() => setImgError(true)}
               />
-                <div className="about-accent-badge">
+              
+            </div>
+             <div className="about-accent-badge">
               <Store size={22} aria-hidden="true" />
               <span>{t('about.badgeTitle')} — {t('about.badgeDesc')}</span>
             </div>
-            </div>
-           
           </div>
 
           {/* Content & 4 Visual Benefits */}
