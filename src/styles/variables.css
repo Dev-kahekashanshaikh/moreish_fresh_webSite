@@ -1,0 +1,75 @@
+:root {
+  /* Brand Color Palette */
+  --color-primary-red: #C62828;
+  --color-deep-red: #A61E22;
+  --color-light-red: #FFEBEE;
+  --color-red-glow: rgba(198, 40, 40, 0.15);
+  --color-red-glow-strong: rgba(198, 40, 40, 0.25);
+  
+  --color-fresh-white: #FFFFFF;
+  --color-warm-bg: #FAF8F5;
+  --color-light-neutral: #F0EFEC;
+  --color-card-bg: #FFFFFF;
+  
+  --color-charcoal-text: #242424;
+  --color-secondary-text: #666666;
+  --color-subtle-borders: #E7E3DE;
+  --color-border-hover: #D0CBC4;
+
+  /* Freshness & Badge Accents */
+  --color-accent-green: #2E7D32;
+  --color-accent-green-bg: #E8F5E9;
+  --color-accent-amber: #E65100;
+  --color-accent-amber-bg: #FFF3E0;
+
+  /* Typography */
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kannada: 'Noto Sans Kannada', 'Inter', sans-serif;
+
+  /* Fluid Spacing Scale */
+  --space-2xs: 0.25rem;  /* 4px */
+  --space-xs: 0.5rem;    /* 8px */
+  --space-sm: 0.75rem;   /* 12px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4.5rem;   /* 72px */
+  --space-4xl: 6rem;     /* 96px */
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Elevation Shadows */
+  --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 12px 32px rgba(0, 0, 0, 0.1);
+  --shadow-dropdown: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-primary-btn: 0 4px 14px rgba(198, 40, 40, 0.35);
+  --shadow-primary-hover: 0 6px 20px rgba(198, 40, 40, 0.45);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout Containers */
+  --container-max-width: 1240px;
+  --container-narrow-width: 960px;
+  --header-height: 76px;
+  --header-height-mobile: 68px;
+
+  /* Z-Index Layers */
+  --z-base: 1;
+  --z-card: 2;
+  --z-sticky: 100;
+  --z-header: 500;
+  --z-mobile-menu: 600;
+  --z-modal: 700;
+  --z-floating: 800;
+}

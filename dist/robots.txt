@@ -1,0 +1,5 @@
+# Robots.txt for Moreish Fresh
+User-agent: *
+Allow: /
+
+Sitemap: https://moreishfresh.com/sitemap.xml
