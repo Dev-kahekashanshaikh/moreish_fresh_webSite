@@ -158,6 +158,10 @@
    Small Mobile Phones (< 576px)
    -------------------------------------------------------------------------- */
 @media (max-width: 576px) {
+  body {
+    padding: 0 2%;
+  }
+
   .hero-cta-group {
     flex-direction: column;
     width: 100%;
