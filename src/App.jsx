@@ -8,11 +8,13 @@ import { ScrollToTopButton } from './components/ScrollToTopButton';
 import { HeroSection } from './sections/HeroSection';
 import { AboutSection } from './sections/AboutSection';
 import { JourneySection } from './sections/JourneySection';
-import { ProductsSection } from './sections/ProductsSection';
+// import { ProductsSection } from './sections/ProductsSection';
 import { PackagingSection } from './sections/PackagingSection';
 import { CommitmentSection } from './sections/CommitmentSection';
 import { VisionSection } from './sections/VisionSection';
 import { ContactSection } from './sections/ContactSection';
+import HeaderSlider from './sections/HeaderSlider'
+import {MobileProductsSlider } from './sections/MobileProductsSlider'
 
 import './styles/variables.css';
 import './styles/global.css';
@@ -26,10 +28,12 @@ export function App() {
       <div className="site-wrapper">
         <Header />
         <main id="main-content">
+        <HeaderSlider />
           <HeroSection />
           <AboutSection />
           <JourneySection />
-          <ProductsSection />
+          {/* <ProductsSection /> */}
+          <MobileProductsSlider />
           <PackagingSection />
           <CommitmentSection />
           <VisionSection />

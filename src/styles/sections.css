@@ -2,6 +2,160 @@
    Sections Stylesheet
    ========================================================================== */
 
+
+   /* Hidden by default: desktop shows the grid */
+.mobile-journey-only {
+  display: none;
+}
+
+.desktop-journey-only {
+  display: block;
+}
+
+/* Mobile journey cards slider */
+.mobile-journey-swiper {
+  width: 100%;
+  max-width: 340px;
+  margin: 30px auto;
+  padding: 20px 0 40px;
+}
+
+.mobile-journey-swiper .swiper-slide {
+  height: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.mobile-journey-swiper .journey-step-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.mobile-journey-swiper .step-image-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.mobile-journey-swiper .step-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.mobile-journey-swiper .step-body {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.mobile-journey-swiper .step-title {
+  margin: 0 0 10px;
+}
+
+.mobile-journey-swiper .step-description {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Mobile only */
+@media (max-width: 767px) {
+  .mobile-journey-only {
+    display: block;
+  }
+
+  .desktop-journey-only {
+    display: none;
+  }
+}
+
+/* mobile cards */
+
+.mobile-products-swiper {
+  width: 100%;
+  max-width: 340px;
+  margin: 30px auto;
+  padding: 20px 0 40px;
+  display: none;
+}
+
+.mobile-products-swiper .swiper-slide {
+  height: 440px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* Make the product card fill the slide */
+.mobile-products-swiper .swiper-slide > * {
+  width: 100%;
+  height: 100%;
+}
+
+/* @media (min-width: 768px) {
+  .mobile-products-swiper {
+    display: none;
+  }
+} */
+
+@media (max-width: 768px) {
+  .mobile-products-swiper {
+    display:block;
+  }
+  .products-grid{
+display: none;
+  }
+
+}
+
+
+
+
+/* swiper */
+   /* .swiper-clickable-image {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  cursor: pointer;
+} */
+
+
+
+ 
+.mySwiper {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.mySwiper .swiper-slide {
+  width: 70%;
+  height: 450px;
+}
+
+.swiper-clickable-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mySwiper .swiper-slide {
+    width: 85%;
+    height: 320px;
+  }
+}
+
 /* --------------------------------------------------------------------------
    Hero Section
    -------------------------------------------------------------------------- */
@@ -249,6 +403,7 @@
   grid-template-columns: repeat(5, 1fr);
   gap: var(--space-md);
   position: relative;
+
 }
 
 .journey-step-card {
@@ -260,6 +415,7 @@
   transition: all var(--transition-normal);
   display: flex;
   flex-direction: column;
+
 }
 
 .journey-step-card:hover {
